@@ -116,7 +116,7 @@ function humanitarianresponse_page_field_default_fields() {
       'bundle' => 'page',
       'default_value' => NULL,
       'deleted' => '0',
-      'description' => 'A field replacing node title.',
+      'description' => '',
       'display' => array(
         'default' => array(
           'label' => 'above',
@@ -152,7 +152,6 @@ function humanitarianresponse_page_field_default_fields() {
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('A field replacing node title.');
   t('Body');
   t('Title');
 
