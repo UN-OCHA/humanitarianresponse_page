@@ -91,6 +91,9 @@ function humanitarianresponse_page_field_default_fields() {
       'deleted' => '0',
       'entity_types' => array(),
       'field_name' => 'title_field',
+      'field_permissions' => array(
+        'type' => '0',
+      ),
       'foreign keys' => array(
         'format' => array(
           'columns' => array(
