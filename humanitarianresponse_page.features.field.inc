@@ -52,6 +52,12 @@ function humanitarianresponse_page_field_default_fields() {
           'type' => 'text_default',
           'weight' => 0,
         ),
+        'ical' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
+        ),
         'teaser' => array(
           'label' => 'hidden',
           'module' => 'text',
@@ -126,6 +132,12 @@ function humanitarianresponse_page_field_default_fields() {
           'settings' => array(),
           'type' => 'hidden',
           'weight' => 1,
+        ),
+        'ical' => array(
+          'label' => 'above',
+          'settings' => array(),
+          'type' => 'hidden',
+          'weight' => 0,
         ),
         'teaser' => array(
           'label' => 'above',
